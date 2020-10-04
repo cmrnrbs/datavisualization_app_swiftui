@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BDA4795D252A03610002FA4C /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4795C252A03610002FA4C /* RoundedCorner.swift */; };
+		BDA47962252A06520002FA4C /* CalCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA47961252A06520002FA4C /* CalCustomShape.swift */; };
+		BDA47967252A0A920002FA4C /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA47966252A0A920002FA4C /* CardItem.swift */; };
+		BDA4796C252A0AC10002FA4C /* MinCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4796B252A0AC10002FA4C /* MinCustomShape.swift */; };
 		BDDE12F02529FA2500E64607 /* datavizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE12EF2529FA2500E64607 /* datavizApp.swift */; };
 		BDDE12F22529FA2500E64607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE12F12529FA2500E64607 /* ContentView.swift */; };
 		BDDE12F42529FA2B00E64607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDE12F32529FA2B00E64607 /* Assets.xcassets */; };
 		BDDE12F72529FA2B00E64607 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDDE12F62529FA2B00E64607 /* Preview Assets.xcassets */; };
 		BDDE13022529FA2B00E64607 /* datavizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE13012529FA2B00E64607 /* datavizTests.swift */; };
 		BDDE130D2529FA2B00E64607 /* datavizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE130C2529FA2B00E64607 /* datavizUITests.swift */; };
+		BDDE131E2529FA8700E64607 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE131D2529FA8600E64607 /* CustomShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BDA4795C252A03610002FA4C /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
+		BDA47961252A06520002FA4C /* CalCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCustomShape.swift; sourceTree = "<group>"; };
+		BDA47966252A0A920002FA4C /* CardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
+		BDA4796B252A0AC10002FA4C /* MinCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCustomShape.swift; sourceTree = "<group>"; };
 		BDDE12EC2529FA2500E64607 /* dataviz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataviz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDE12EF2529FA2500E64607 /* datavizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datavizApp.swift; sourceTree = "<group>"; };
 		BDDE12F12529FA2500E64607 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,7 @@
 		BDDE13082529FA2B00E64607 /* datavizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = datavizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDE130C2529FA2B00E64607 /* datavizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datavizUITests.swift; sourceTree = "<group>"; };
 		BDDE130E2529FA2B00E64607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDDE131D2529FA8600E64607 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +105,16 @@
 		BDDE12EE2529FA2500E64607 /* dataviz */ = {
 			isa = PBXGroup;
 			children = (
+				BDA47966252A0A920002FA4C /* CardItem.swift */,
 				BDDE12EF2529FA2500E64607 /* datavizApp.swift */,
 				BDDE12F12529FA2500E64607 /* ContentView.swift */,
 				BDDE12F32529FA2B00E64607 /* Assets.xcassets */,
 				BDDE12F82529FA2B00E64607 /* Info.plist */,
 				BDDE12F52529FA2B00E64607 /* Preview Content */,
+				BDDE131D2529FA8600E64607 /* CustomShape.swift */,
+				BDA4795C252A03610002FA4C /* RoundedCorner.swift */,
+				BDA47961252A06520002FA4C /* CalCustomShape.swift */,
+				BDA4796B252A0AC10002FA4C /* MinCustomShape.swift */,
 			);
 			path = dataviz;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDA4796C252A0AC10002FA4C /* MinCustomShape.swift in Sources */,
+				BDA47962252A06520002FA4C /* CalCustomShape.swift in Sources */,
+				BDA4795D252A03610002FA4C /* RoundedCorner.swift in Sources */,
+				BDA47967252A0A920002FA4C /* CardItem.swift in Sources */,
 				BDDE12F22529FA2500E64607 /* ContentView.swift in Sources */,
 				BDDE12F02529FA2500E64607 /* datavizApp.swift in Sources */,
+				BDDE131E2529FA8700E64607 /* CustomShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
