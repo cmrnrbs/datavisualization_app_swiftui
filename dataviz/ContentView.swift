@@ -23,12 +23,12 @@ struct ContentView: View {
                     ZStack
                     {
                         Image(systemName: "plus").font(.system(size: 24))
-                    }.frame(width: 64 , height: 64).background(Color.white).cornerRadius(32).shadow(color: Color/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/.opacity(0.4), radius: 8, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/ ).zIndex(/*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/).onTapGesture(count: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/, perform: {
+                    }.frame(width: 64 , height: 64).background(Color.white).cornerRadius(32).shadow(color: Color/*@START_MENU_TOKEN@*/.black/*@END_MENU_TOKEN@*/.opacity(0.4), radius: 8, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/ ).onTapGesture(count: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/, perform: {
                         print("tapped!")
                     })
                     
                 }.padding(.trailing , 30).padding(.bottom , 30)
-            }.frame(width: .infinity, height: .infinity)
+            }.frame(width: .infinity, height: .infinity).zIndex(/*@START_MENU_TOKEN@*/1.0/*@END_MENU_TOKEN@*/)
             
             
             VStack(alignment: .leading, spacing : 10)
@@ -59,7 +59,7 @@ struct ContentView: View {
                 HStack{
                     Text("Training").font(.system(size:24, weight: .semibold)).foregroundColor(.white)
                     Spacer()
-                }.padding(.leading, 70)
+                }.padding(.leading, 70).padding(.top , 40)
                 
                 ScrollView(.horizontal,showsIndicators: false, content: {
                     HStack{
