@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD94F402252B203200161DAE /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94F401252B203200161DAE /* CardItem.swift */; };
 		BDA4795D252A03610002FA4C /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4795C252A03610002FA4C /* RoundedCorner.swift */; };
 		BDA47962252A06520002FA4C /* CalCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA47961252A06520002FA4C /* CalCustomShape.swift */; };
-		BDA47967252A0A920002FA4C /* CardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA47966252A0A920002FA4C /* CardItem.swift */; };
 		BDA4796C252A0AC10002FA4C /* MinCustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA4796B252A0AC10002FA4C /* MinCustomShape.swift */; };
 		BDDE12F02529FA2500E64607 /* datavizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE12EF2529FA2500E64607 /* datavizApp.swift */; };
 		BDDE12F22529FA2500E64607 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDE12F12529FA2500E64607 /* ContentView.swift */; };
@@ -38,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD94F401252B203200161DAE /* CardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
 		BDA4795C252A03610002FA4C /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 		BDA47961252A06520002FA4C /* CalCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalCustomShape.swift; sourceTree = "<group>"; };
-		BDA47966252A0A920002FA4C /* CardItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardItem.swift; sourceTree = "<group>"; };
 		BDA4796B252A0AC10002FA4C /* MinCustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCustomShape.swift; sourceTree = "<group>"; };
 		BDDE12EC2529FA2500E64607 /* dataviz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dataviz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDDE12EF2529FA2500E64607 /* datavizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = datavizApp.swift; sourceTree = "<group>"; };
@@ -105,7 +105,6 @@
 		BDDE12EE2529FA2500E64607 /* dataviz */ = {
 			isa = PBXGroup;
 			children = (
-				BDA47966252A0A920002FA4C /* CardItem.swift */,
 				BDDE12EF2529FA2500E64607 /* datavizApp.swift */,
 				BDDE12F12529FA2500E64607 /* ContentView.swift */,
 				BDDE12F32529FA2B00E64607 /* Assets.xcassets */,
@@ -115,6 +114,7 @@
 				BDA4795C252A03610002FA4C /* RoundedCorner.swift */,
 				BDA47961252A06520002FA4C /* CalCustomShape.swift */,
 				BDA4796B252A0AC10002FA4C /* MinCustomShape.swift */,
+				BD94F401252B203200161DAE /* CardItem.swift */,
 			);
 			path = dataviz;
 			sourceTree = "<group>";
@@ -277,9 +277,9 @@
 				BDA4796C252A0AC10002FA4C /* MinCustomShape.swift in Sources */,
 				BDA47962252A06520002FA4C /* CalCustomShape.swift in Sources */,
 				BDA4795D252A03610002FA4C /* RoundedCorner.swift in Sources */,
-				BDA47967252A0A920002FA4C /* CardItem.swift in Sources */,
 				BDDE12F22529FA2500E64607 /* ContentView.swift in Sources */,
 				BDDE12F02529FA2500E64607 /* datavizApp.swift in Sources */,
+				BD94F402252B203200161DAE /* CardItem.swift in Sources */,
 				BDDE131E2529FA8700E64607 /* CustomShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
